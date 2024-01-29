@@ -56,9 +56,8 @@ const HomePage = () => {
       <MenuNav />
       <div className="content">
         { currentUser && (
-          <h2>Welcome, {currentUser}!</h2>
+          <h2 className="welcomeText">Welcome, {currentUser}!</h2>
         )}
-        <h3>DipDip</h3>
         {recipes.length > 0 && (
           <RecipeCard
             recipe={recipes[currentRecipeIndex]}
