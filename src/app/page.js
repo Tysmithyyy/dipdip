@@ -23,7 +23,7 @@ const HomePage = () => {
       try {
         const params = {
           type: 'main course',
-          number: 25,
+          number: 60,
         };
 
         const data = await apiFetch(params);
