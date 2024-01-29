@@ -31,3 +31,86 @@ body {
     text-wrap: balance;
   }
 }
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+label {
+  display: block;
+  margin: 10px 0;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 2px solid white;
+  background: black;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.recipe-card {
+  width: 98vw;
+  padding: 15px;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+.recipe-card > img {
+  width: 95vw;
+  border-radius: 10px;
+  margin: auto;
+  padding-top: 15px;
+}
+
+.recipe-card > h2 {
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.arrow-up, .arrow-down {
+  display: block;
+  margin: auto;
+  height: 75px;
+  width: 75px;
+  font-size: 40px;
+  text-align: center;
+  padding: 5px;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+
+h2 {
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+}
